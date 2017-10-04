@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
+
 func main() {
 
 	var input int = 0
 	var factorial int = 1
-	//var digit int = 0
 	var sum int =  0
 
 	fmt.Println("Please Enter a number:")
@@ -21,6 +21,8 @@ func main() {
 			sum = sum + i
 		}
 	}
+
+
 	fmt.Println("Number Factorial:", factorial)
 	fmt.Println("Sum of Factorial:", sum)
 
